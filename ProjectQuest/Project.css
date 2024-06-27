@@ -1,15 +1,13 @@
-/* Styling for title */
 title {
     text-decoration-color: darkgray;
 }
 
-/* Styling for buttons */
 #quest1, #quest2, #quest3 {
     padding: 20px;
-    background-color: #8B0000; /* Dark red */
-    color: #FFF8DC; /* Cornsilk color for contrast */
+    background-color: #8B0000; 
+    color: #FFF8DC; 
     font-size: large;
-    font-family: 'Creepster', cursive; /* Creepster with cursive fallback */
+    font-family: 'Creepster', cursive; 
     border: none;
     border-radius: 5px;
     cursor: pointer;
@@ -17,19 +15,17 @@ title {
     transition: transform 0.3s, background-color 0.3s;
 }
 
-/* Styling for button hover effect */
 button:hover {
     transform: scale(1.1);
-    background-color: #B22222; /* Firebrick color for hover effect */
-}
+    background-color: #B22222; 
 
-/* Styling for the body */
+
 body {
     text-align: center;
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    font-family: 'Creepster', cursive; /* Apply creepy font with cursive fallback */
+    font-family: 'Creepster', cursive; 
     margin: 0;
     padding: 0;
     background-color: #000000; /* Black background */
@@ -45,7 +41,6 @@ a {
     display: inline-block;
 }
 
-/* Styling for the main div with background image */
 .div {
     background-image: url('Welcome to the quest.png');
     background-size: cover;
@@ -55,10 +50,9 @@ a {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    background-color: rgba(0, 0, 0, 0.7); /* Semi-transparent black overlay */
+    background-color: rgba(0, 0, 0, 0.7); 
 }
 
-/* Styling for the exp div */
 .exp {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -71,15 +65,14 @@ a {
 
 /* Styling for numbers */
 .div1, .div2, .div3 {
-    background-color: #8B0000; /* Dark red */
-    color: #FFF8DC; /* Cornsilk color for contrast */
+    background-color: #8B0000;
+    color: #FFF8DC; 
     padding: 10px;
     border-radius: 5px;
     font-size: large;
-    box-shadow: 0 0 10px #FFD700; /* Gold shadow */
+    box-shadow: 0 0 10px #FFD700; 
 }
 
-/* Import the creepy font */
 @import url('https://fonts.googleapis.com/css2?family=Creepster&display=swap');
 
 
