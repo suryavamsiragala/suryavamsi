@@ -1,0 +1,59 @@
+a{
+    border: 10px;
+    text-decoration:solid;
+    background-color: darkred;
+    position: fixed;
+    bottom: 480px;
+    right: 140px;
+}
+a:hover{
+    zoom: 1.4;
+    cursor: pointer;
+}
+body{
+    text-align: center;
+    background-size: cover;
+    background-image: url('resize-17188619951098798670Welcometothequest.jpg'); 
+    background-position: left; 
+    background-repeat: no-repeat; 
+    height: 90vh;
+    color: darkgray;
+    font-size: 20px;
+}
+form{
+    /* padding: 90px; */
+    padding-top: 150px;
+    padding-left: 400px;
+    padding-right: 150px;
+    text-align: justify;
+    /* padding-left: 444px; */
+    
+}
+/* p{
+    padding: 0px;
+    padding-top: 150px;
+    text-align: justify;
+} */
+label{
+    padding: auto;
+}
+input{
+    cursor: pointer;
+}
+/* #q1options:hover{
+    zoom: 1.1;
+} */
+/* .quest2:hover{
+    zoom: 1.1;
+}
+.quest3:hover{
+    zoom: 1.1;
+} */
+button:hover{
+    zoom: 1.1;
+    
+}
+button{
+    font-size: 15px;
+    cursor: pointer;
+}
