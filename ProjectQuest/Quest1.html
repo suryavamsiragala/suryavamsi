@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Quest1</title>
+    <link rel="stylesheet" href="quest.css">
+    
+</head>
+<body>
+    <a href="project.html" style="color: darkgray;">Go to home page</a>
+    <div class="form">
+        
+        <form id="quiz">
+            <p>Q1. Which creature in Greek mythology is known for having snakes for hair and the ability to turn people to stone with its gaze?</p>
+            <button type="reset">Clear</button><br>
+            <label id="q1options">
+                <input type="radio" name="question" value="sphinx"> Sphinx<br>
+                <input type="radio" name="question" value="medusa"> Medusa <br>
+                <input type="radio" name="question" value="harpy"> Harpy <br>
+                <input type="radio" name="question" value="minotaur"> Minotaur <br>
+                <button type="button" onclick="rewardpage()">Submit</button>
+            </label>
+        </form>
+        
+        <p id="message"></p>
+    </div>
+    <script src="Quest.js"></script>
+</body>
+</html>
